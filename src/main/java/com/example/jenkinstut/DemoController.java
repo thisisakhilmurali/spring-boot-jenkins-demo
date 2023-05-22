@@ -13,4 +13,9 @@ public class DemoController {
         return "One Initiated";
     }
 
+    @GetMapping("/two")
+    public String helloTwo() {
+        return "Two Initiated";
+    }
+
 }
