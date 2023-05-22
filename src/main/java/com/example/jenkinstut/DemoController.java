@@ -18,9 +18,4 @@ public class DemoController {
         return "Display the Last Name";
     }
 
-    @GetMapping("/getEmail")
-    public String getEmail() {
-        return "Display the Email";
-    }
-
 }
