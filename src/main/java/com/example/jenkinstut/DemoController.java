@@ -8,14 +8,19 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/hello")
 public class DemoController {
 
-    @GetMapping("/one")
-    public String helloWorld() {
-        return "One Initiated";
+    @GetMapping("/getFirstName")
+    public String getFirstName() {
+        return "Display the First Name";
+    }
+    
+    @GetMapping("/getLastName")
+    public String getLastName() {
+        return "Display the Last Name";
     }
 
-    @GetMapping("/two")
-    public String helloTwo() {
-        return "Two Initiated";
+    @GetMapping("/getEmail")
+    public String getEmail() {
+        return "Display the Email";
     }
 
 }
